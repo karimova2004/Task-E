@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = 3001;
+const PORT = 3000;
 const employees = [
-  { id: 1, name: "Əli", age: 25 },
-  { id: 2, name: "Vüsalə", age: 30 },
-  { id: 3, name: "Nicat", age: 28 }
+  { id: 1, name: "Tony", age: 25 },
+  { id: 2, name: "Bella", age: 20 },
+  { id: 3, name: "Jack", age: 18 }
 ];
 
 app.use(express.json());
